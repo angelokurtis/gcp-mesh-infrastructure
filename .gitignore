@@ -10,3 +10,4 @@ gcp_secret.json
 
 # Crash log files
 crash.log
+.idea/
