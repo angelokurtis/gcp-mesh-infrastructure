@@ -63,6 +63,11 @@ resource "helm_release" "istio" {
     value = "true"
   }
 
+  set {
+    name = "pilot.traceSampling"
+    value = "100.0"
+  }
+
   depends_on = [
     "null_resource.delay",
   ]
