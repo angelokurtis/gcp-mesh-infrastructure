@@ -58,6 +58,11 @@ resource "helm_release" "istio" {
     value = "true"
   }
 
+  set {
+    name = "tracing.enabled"
+    value = "true"
+  }
+
   depends_on = [
     "null_resource.delay",
   ]
