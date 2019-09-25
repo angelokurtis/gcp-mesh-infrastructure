@@ -1,9 +1,9 @@
 variable "gcloud_project" {
-  default = "mesh-project"
+  default = "fiery-palace-245011"
 }
 
 variable gcloud_account {
-  default = "kurtis.angelo@gmail.com"
+  default = "matheus.moraes@sensedia.com"
 }
 
 variable "gcloud_region" {
