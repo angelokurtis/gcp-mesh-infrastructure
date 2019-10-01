@@ -21,7 +21,7 @@ variable helm_version {
 
 variable istio_version {
   type = "string"
-  default = "1.3.0"
+  default = "1.3.1"
 }
 
 variable istio_namespace {
