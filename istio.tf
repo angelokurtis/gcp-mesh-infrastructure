@@ -59,6 +59,11 @@ resource "helm_release" "istio" {
   }
 
   set {
+    name = "kiali.createDemoSecret"
+    value = "true"
+  }
+
+  set {
     name = "tracing.enabled"
     value = "true"
   }
