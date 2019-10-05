@@ -13,7 +13,7 @@ resource "google_container_cluster" "gcloud_cluster" {
   location = data.google_container_engine_versions.engine_versions.location
 
   node_pool {
-    initial_node_count = 3
+    initial_node_count = 4
 
     management {
       auto_repair = true
